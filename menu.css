@@ -1,0 +1,9 @@
+nav{
+    display: inline-block;
+    background-color: orangered;
+}
+
+nav:hover{
+    position: static;
+    background-color: teal;
+}
