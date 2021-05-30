@@ -1,10 +1,28 @@
+const 
+
+const i=0; 
+const images = [];
+const time = 3000;
+
+// image list
+
 const gallery = [
-    {link: "./images/character rationale.png"},
-    {link: "./images/exhibition poster.png"},
-    {link: "./images/MEDIUM IS THE MESSAGE.png"},
+images[0]= "./images/character rationale.png",
+images[1]= "./images/exhibition poster.png",
+images[2]= "./images/MEDIUM IS THE MESSAGE.png",
 ]
 
-window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-    renderMenu();
-});
+//function to change image 
+function changeImg(){
+    document.slide.src = images[i];
+
+    if (i< images.length - 1 ){
+        i++;
+    } else {
+        i=0;
+    }
+
+    setTimeout("changeImg()", time);
+
+}
+window.onload =changeImg
