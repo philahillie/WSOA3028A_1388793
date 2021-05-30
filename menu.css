@@ -3,6 +3,6 @@ nav{
 }
 
 nav:hover{
-    position: static;
+    position:inherit;
     background-color: orangered;
 }
