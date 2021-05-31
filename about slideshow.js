@@ -26,3 +26,16 @@ function changeImg(){
 
 }
 window.onload =changeImg
+
+const renderGallery =  ()=> {
+    const slideShow = document.querySelector.Selector("gallery");
+    gallery.forEach (item => {
+        const newImage = document.createElement ("li"); 
+        const newLink = document.createElement ("ul");
+        const newSlide = document.createElement("section");
+
+        newImage.appendChild(newLink);
+        newLink.appendChild(newSlide);
+    });
+    
+}

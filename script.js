@@ -1,10 +1,10 @@
 
 const menuItems= [
     {title: "HOME", link: "../index.html"},
-    {title: "ABOUT", link: "./about/about.html"},
-    {title: "BLOGS", link: "./blogs/blogs.html"}, 
-    {title: "THEORY", link: "./theory/theory.html"}, 
-    {title: "CONTACT", link: "./contact/contact.html"}, 
+    {title: "ABOUT", link: "../about/about.html"},
+    {title: "BLOGS", link: "../blogs/blogs.html"}, 
+    {title: "THEORY", link: "../theory/theory.html"}, 
+    {title: "CONTACT", link: "../contact/contact.html"}, 
     
 ];
 
