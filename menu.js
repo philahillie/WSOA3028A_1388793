@@ -13,7 +13,9 @@ const menuItems= [
     
 ];
 
-
+module = {
+    basePath: '/docs',
+  }
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
