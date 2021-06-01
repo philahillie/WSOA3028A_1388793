@@ -1,3 +1,8 @@
+.h-card {
+    visibility: hidden;
+
+}
+
 body {
     max-width: 1000px;
     text-align: center;
