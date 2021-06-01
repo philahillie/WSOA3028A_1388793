@@ -2,9 +2,9 @@ const carouselSlide = document.querySelector(".carouselSlide");
 const carouselImage =document.querySelector(".carouselSlide img");
 
 const active =[
-    {Object: "images", link: "./images/roses.jpg"},
-    {Object: "images", link: "./images/bw portrait.jpg"},
-    {Object: "images", link: "./images/portrait.jpg"},
+    {object: "images", link: "./images/roses.jpg"},
+    {object: "images", link: "./images/bw portrait.jpg"},
+    {object: "images", link: "./images/portrait.jpg"},
 
 ];
 
@@ -13,9 +13,9 @@ const prevButton = document.querySelector(".prevButton");
 const nextButton = document.querySelector(".nextButton");
 
 //counter
-const clientWidth = document.querySelector(".active")
+
 let counter = 1;
-const size= carouselImage[0].clientWidth;
+const size= carouselImage[0].carouselSlide;
 
 carouselSlide.style.transform = "translateX(" + (-size * counter)+ "px)";
 
