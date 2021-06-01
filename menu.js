@@ -1,4 +1,9 @@
 
+
+
+
+
+
 const menuItems= [
     {title: "HOME", link: "../index.html"},
     {title: "ABOUT", link: "../about/about.html"},
@@ -7,6 +12,9 @@ const menuItems= [
     {title: "CONTACT", link: "../contact/contact.html"}, 
     
 ];
+
+
+
 
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
@@ -19,6 +27,7 @@ console.log ("Hello World");
 const renderMenu = ()=> {
     const navBar = document.querySelector(".menuItems");
     menuItems.forEach(item => {
+        
         
         const newItem = document.createElement("li");
         const newLink = document.createElement("a");
