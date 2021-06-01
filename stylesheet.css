@@ -1,7 +1,3 @@
-.h-card {
-    visibility: hidden;
-
-}
 
 body {
     max-width: 1000px;
@@ -59,4 +55,10 @@ body {
     grid-auto-rows: minmax(100px, auto);
 }
 
+.portrait {
+
+    max-width: 40%;
+    max-height: 40%;
+    
+}
 
