@@ -19,13 +19,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
     renderMenu();
 });
-console.log ("Hello World");
+// console.log ("Hello World");
 
 
 
 const renderMenu = ()=> {
     const navBar = document.querySelector(".menuItems");
-    menuItems.forEach(item => {
+    menuItems.forEach(item =>  {
         
         
         const newItem = document.createElement("li");
@@ -36,6 +36,8 @@ const renderMenu = ()=> {
         navBar.appendChild (newItem);
     });
 };
+
+console.log(navBar.menuItems);
 
 // const renderMenu = ()=> {
  //   const navMenu = document.querySelector(".menuItems");
