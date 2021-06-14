@@ -37,7 +37,7 @@ const renderMenu = ()=> {
     });
 };
 
-console.log(navBar.menuItems);
+console.log(renderMenu.menuItems);
 
 // const renderMenu = ()=> {
  //   const navMenu = document.querySelector(".menuItems");
