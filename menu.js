@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 
 const renderMenu = ()=> {
-    const navBar = document.querySelector(".menuItems");
+    const navBar = document.querySelectorAll(".menuItems");
     menuItems.forEach(item =>  {
         
         
