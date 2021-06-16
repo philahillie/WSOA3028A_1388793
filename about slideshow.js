@@ -34,7 +34,13 @@ window.addEventListener ('DOMContentLoaded', (_images) => {
     changeImg();
 });
 
+for (let step = 0; step < 3; step++) {
+    // Runs 5 times, with values of step 0 through 4.
+    console.log(changeImg);
+  }
+
 window.onload = changeImg ;
+
 
 
 
