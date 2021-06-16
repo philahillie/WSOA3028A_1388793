@@ -9,10 +9,13 @@ ul {
     
 }
 
-
+.menuItems {
+    background-color: #ef7745;
+   
+}
 
 nav a:hover {
-    background-color: orangered;
+    background-color: white;
 
 }
 
