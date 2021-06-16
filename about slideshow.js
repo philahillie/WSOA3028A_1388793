@@ -4,14 +4,14 @@
 
 let i=0; 
 let images = [];
-let time = 1000;
+let time = 2500;
 
 // image list
 
 images[0]= './images/all white.jpg';
 images[1]= './images/blooming.jpg';
 images[2]= './images/studio.jpg';
-images[3]= './images/portrait.jpg';
+// images[3]= './images/portrait.jpg';
 
 
 
@@ -25,9 +25,14 @@ function changeImg(){
         i=0;
     }
 
-    setTimeout("changeImg()", time);
+    setInterval("changeImg()", time);
 
 }
+
+window.addEventListener ('DOMContentLoaded', (_images) => {
+    console.log ('DOM fully loaded and parsed');
+    changeImg();
+});
 
 window.onload = changeImg ;
 
