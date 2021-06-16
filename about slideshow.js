@@ -4,14 +4,14 @@
 
 let i=0; 
 let images = [];
-let time = 2000;
+let time = 1000;
 
 // image list
 
 images[0]= './images/all white.jpg';
 images[1]= './images/blooming.jpg';
 images[2]= './images/studio.jpg';
-// images[3]= './images/portrait.jpg';
+images[3]= './images/portrait.jpg';
 
 
 
@@ -29,7 +29,14 @@ function changeImg(){
 
 }
 
-window.onload = changeImg;
+window.onload = changeImg ;
+
+
+
+// window.addEventListener('DOMContentLoaded', (event) => {
+   //  console.log('DOM fully loaded and parsed');
+    // renderMenu();
+ // });
 
 //console.log()
 
