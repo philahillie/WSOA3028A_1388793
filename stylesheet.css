@@ -8,39 +8,15 @@ body {
 
 }
 
-.carouselContainer{
-    width: 60%;
+
+
+.slide{
     margin: auto;
-    border: 5px solid black;
+
     overflow: hidden; 
 }
 
-.carouselSlide{
-    display:inline-flex;
-    width: 100%;
-    height:500px;
-    
-}
 
-.prevButton {
-    top: 50%;
-    z-index: 10;
-    left: 5%;
-    font-size: 30px;
-    color: white;
-    cursor:pointer;
-
-}
-
-.nextButton {
-    top: 50%;
-    z-index: 10;
-    right: 5%;
-    font-size: 30px;
-    color: white;
-    cursor:pointer;
-
-}
 
 .wireframe {
     max-width: 40%;
@@ -48,12 +24,7 @@ body {
 
 }
 
-.article{
-    display: grid;
-    grid-template-columns: repeat(3,lfr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-}
+
 
 .portrait {
 
@@ -67,5 +38,10 @@ body {
     max-width: 40%;
     max-height: 40%;
     
+}
+
+.mila {
+    font-weight: bold;
+
 }
 
