@@ -11,21 +11,21 @@ const menuItems= [
     {title: "THEORY BLOGS", link: "../theory/theory.html"}, 
     {title: "CONTACT", link: "../contact/contact.html"}, 
     
-];
+ ];
 
 
 
-window.addEventListener('DOMContentLoaded', (event) => {
+ window.addEventListener('DOMContentLoaded', (event) => {
     console.log('DOM fully loaded and parsed');
     renderMenu();
-});
-// console.log ("Hello World");
+ });
+ console.log ("Hello World");
 
 
 
-const renderMenu = ()=> {
+ const renderMenu = ()=> {
     const navBar = document.querySelector(".menuItems");
-    menuItems.forEach(item =>  {
+   menuItems.forEach(item =>  {
         
         
         const newItem = document.createElement("li");
@@ -35,11 +35,9 @@ const renderMenu = ()=> {
         newItem.appendChild(newLink);
         navBar.appendChild (newItem);
     });
-};
+ };
 
-menuItems.addEventListener('click', newItem, navBar => {
-    console.log('click');
-}  );
+
 
 // const renderMenu = ()=> {
  //   const navMenu = document.querySelector(".menuItems");
@@ -54,3 +52,9 @@ menuItems.addEventListener('click', newItem, navBar => {
         // navMenu.appendChild (navBar)
     // });
 // };
+
+// new navigation
+
+
+
+
