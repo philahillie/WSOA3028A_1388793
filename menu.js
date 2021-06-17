@@ -1,15 +1,9 @@
-
-
-
-
-
-
 const menuItems= [
-    {title: "HOME", link: "./index.html"},
-    {title: "ABOUT", link: "./about/about.html"},
-    {title: "CREATIVE BLOGS", link: "./blogs/blogs.html"}, 
-    {title: "THEORY BLOGS", link: "./theory/theory.html"}, 
-    {title: "CONTACT", link: "./contact/contact.html"}, 
+    {title: "HOME", link: "/index.html"},
+    {title: "ABOUT", link: "/about/about.html"},
+    {title: "CREATIVE BLOGS", link: "/blogs/blogs.html"}, 
+    {title: "THEORY BLOGS", link: "/theory/theory.html"}, 
+    {title: "CONTACT", link: "/contact/contact.html"}, 
     
  ];
 
@@ -19,13 +13,24 @@ const menuItems= [
     console.log('DOM fully loaded and parsed');
     renderMenu();
  });
- // console.log ("Hello World");
+ 
 
 
 
  const renderMenu = ()=> {
+
     const navBar = document.querySelector(".menuItems");
-   menuItems.forEach(item =>  {
+
+   let pathPrefix = '';
+
+    if (window.location.pathname === '/WSOA3028A_1388793/index.html')
+     pathPrefix = './'
+     else 
+    pathPrefix = '../';
+
+
+    
+    menuItems.forEach(item =>  {
         
         
         const newItem = document.createElement("li");
