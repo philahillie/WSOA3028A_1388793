@@ -23,7 +23,7 @@ const menuItems= [
 
    let pathPrefix = '';
 
-    if (window.location.pathname === '/WSOA3028A_1388793/index.html')
+    if (window.location.pathname === '/WSOA3028A_1388793/')
      pathPrefix = './'
      else 
     pathPrefix = '../';
