@@ -58,7 +58,7 @@ for (let step = 0; step < 3; step++) {
     console.log(changeImg);
   }
 
-window.onload = changeImg ;
+window.onclick = changeImg ;
 
 
 

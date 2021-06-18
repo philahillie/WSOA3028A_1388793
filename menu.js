@@ -19,14 +19,18 @@ const menuItems= [
 
  const renderMenu = ()=> {
 
-    const navBar = document.querySelector(".menuItems");
 
-   let pathPrefix = " ";
+  let pathPrefix = " ";
 
     if (window.location.pathname === "/WSOA3028A_1388793/")
      pathPrefix = "./"
      else 
     pathPrefix = "../";
+
+    const navBar = document.querySelector(".menuItems");
+
+   
+
 
 
     
