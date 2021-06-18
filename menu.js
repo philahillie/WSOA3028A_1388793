@@ -39,7 +39,7 @@ const menuItems= [
         
         const newItem = document.createElement("li");
         const newLink = document.createElement("a");
-        newLink.href = item.link; 
+        newLink.href = pathPrefix + item.link; 
         newLink.text = item.title;
         newItem.appendChild(newLink);
         navBar.appendChild (newItem);
