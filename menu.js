@@ -1,9 +1,9 @@
 const menuItems= [
-    {title: "HOME", link: "index.html"},
-    {title: "ABOUT", link: "about/about.html"},
-    {title: "CREATIVE BLOGS", link: "blogs/blogs.html"}, 
-    {title: "THEORY BLOGS", link: "theory/theory.html"}, 
-    {title: "CONTACT", link: "contact/contact.html"}, 
+    {title: "HOME", link: "/index.html"},
+    {title: "ABOUT", link: "/about/about.html"},
+    {title: "CREATIVE BLOGS", link: "/blogs/blogs.html"}, 
+    {title: "THEORY BLOGS", link: "/theory/theory.html"}, 
+    {title: "CONTACT", link: "/contact/contact.html"}, 
     
  ];
 
