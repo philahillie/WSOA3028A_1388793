@@ -28,7 +28,7 @@ const menuItems= [
      //else 
     //pathPrefix = ("../");
 
-    let pathPrefix = window.location.pathname === "/WSOA3028A_1388793/index.html" ? './' : '../'
+    let pathPrefix = window.location.pathname === "/WSOA3028A_1388793/" ? './' : '../'
 
 
 
