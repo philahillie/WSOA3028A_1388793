@@ -1,9 +1,9 @@
 const menuItems= [
-    {title: "HOME", link: "/index.html"},
-    {title: "ABOUT", link: "/about/about.html"},
-    {title: "CREATIVE BLOGS", link: "/blogs/blogs.html"}, 
-    {title: "THEORY BLOGS", link: "/theory/theory.html"}, 
-    {title: "CONTACT", link: "/contact/contact.html"}, 
+    {title: "HOME", link: "index.html"},
+    {title: "ABOUT", link: "about/about.html"},
+    {title: "CREATIVE BLOGS", link: "blogs/blogs.html"}, 
+    {title: "THEORY BLOGS", link: "theory/theory.html"}, 
+    {title: "CONTACT", link: "contact/contact.html"}, 
     
  ];
 
@@ -21,12 +21,12 @@ const menuItems= [
 
     const navBar = document.querySelector(".menuItems");
 
-   let pathPrefix = '';
+   let pathPrefix = " ";
 
-    if (window.location.pathname === '/WSOA3028A_1388793/')
-     pathPrefix = './'
+    if (window.location.pathname === "/WSOA3028A_1388793/")
+     pathPrefix = "./"
      else 
-    pathPrefix = '../';
+    pathPrefix = "../";
 
 
     
