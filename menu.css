@@ -1,28 +1,48 @@
+.title {
+    float: left;
+    background-color: #924026;
+}
 
 ul {
     display: flex;
     position:relative;
     list-style: none;
-    justify-content: space-between;
+    justify-content:space-evenly;
     visibility: visible;
     font-weight:bold;
     
     
 }
 
+.menuList {
+
+    background-color:#924026;
+}
+
 .menuItems {
     font-stretch: extra-expanded;
+    background-color: #924026;
+    display: flex;
+    justify-content: space-evenly;
    
+}
+nav {
+    float: right;
+    background-color: #924026;
+    background-image: #924026;
+    
+    
 }
 
 nav a {
-    color: black;
+    color: #fbe8dc;
     text-decoration: none;
 }
 
 nav a:hover {
     background-color: #df3314;
-    color: white;
+    color: #fbe8dc;
+    height: 20em;
 
 }
 
