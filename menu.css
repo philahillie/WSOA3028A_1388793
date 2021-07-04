@@ -13,20 +13,24 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1em;
+    
    
 }
 
 .title {
     font-size: 20px;
     padding: 7.5px 10px 7.5px 0;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
 .menuList {
+    font-family: 'Courier New', Courier, monospace;
     order: 2;
     padding: 10px;
     width: 100%;
     text-align:center
+    
 }
 
 nav a:hover {
