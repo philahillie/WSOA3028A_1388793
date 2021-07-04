@@ -1,6 +1,6 @@
 nav {
     background: #924026;
-    padding: 0 15px;
+    padding: 0.5em;
     background-color: #924026;
 
 }
@@ -12,6 +12,7 @@ nav {
     flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 1em;
    
 }
 
