@@ -1,5 +1,6 @@
 body {
-    background-color: #e6ccb6;
+    background-color: white;
+    color: black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +19,7 @@ article {
 }
 
 nav {
-    background-color: #924026;
+    background-color:black;
 }
 
 
@@ -86,13 +87,15 @@ nav {
 }
 
 .flex-item{
+    border:e9724a;
+    background-color:#e9724a;
     padding: 5px;
     width: 25em;
     height: 150px;
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
-    color: white
+    color: black
     
 
 
@@ -100,9 +103,7 @@ nav {
 }
 
 .flex-item:hover {
-    background-color:#92402c
-   
-
+    background-color:#df3314
 
 
 }
@@ -131,15 +132,62 @@ a {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
+    body {
+        background-color: white;
+        
+        font-weight: bold;
+        font-family:'Courier New', Courier, monospace
+
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+
+    }
+
+    time {
+        font-size: 1em;
+    }
+
+    .wireframe {
+    
+        max-width: 60%;
+        max-height: 60%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    article {
+        max-width: 800px;
+        margin-top: 0px;
+        font-size: 0.8em;
+        
+
+    }
+
+
 }
 
-/* ----------- iPad Pro 12.9" ----------- */
+/* ----------- iPad Pro 12.9" ----------- */    
 
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+    article {
+        max-width: 800px;
+        margin-top: 0px;
+        font-size: 0.8em;
+        
+        
+
+    }
 
 }
 
