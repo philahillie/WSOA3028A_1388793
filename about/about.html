@@ -24,6 +24,15 @@
     <script src="../menu.js" type="module"></script>
     <script src = "../about slideshow.js" type = "module" class = "slide"></script>
 
+    <script type="module" src="https://js.api.here.com/v3/3.1/mapsjs.bundle.js"></script>
+
+    <meta name="viewport" content="initial-scale=1.0,
+        width=device-width" />
+      <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+        type="text/javascript" charset="utf-8"></script>
+      <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+        type="text/javascript" charset="utf-8"></script>
+
 
 </head>
 <body>
@@ -106,8 +115,18 @@
         </section>
    </article>
 
+   <button id = "find-me">Show my location</button><br/>
+   <p id = "status"></p>
+   <a id = "map-link" target="_blank"></a>
+
    
-    <img name ="slide" width="1000" height= "600" alt="images by Milani Media House">
+
+   
+    <img name ="slide" width="1000" height= "600" alt="images by Milani Media House" src = "../images/all white.jpg">
+
+    <section class ="map">
+        <ul class = "platform" id ="mapContainer"></ul>
+    </section>
 
     
    
