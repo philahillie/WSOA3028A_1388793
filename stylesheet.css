@@ -25,6 +25,16 @@ nav {
     overflow: hidden; 
 }
 
+.button {
+    background-color: black ;
+    padding: 10px 10px 10px 10px;
+}
+
+#find-me {
+    margin-top: 10px;
+    background-color: #ef774e;
+    padding: 10px 10px 10px 10px;
+}
 
 
 .blogImage {
@@ -40,8 +50,8 @@ nav {
     float: left;
     margin-right: 20px;
     margin-bottom: 50px;
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 25%;
+    max-height: 25%;
     
 }
 
