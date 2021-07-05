@@ -61,7 +61,54 @@ nav a:hover {
 .active .menuList {
     display: block;
 }
+ 
+   /* PC */
 
+   @media only screen 
+   and (min-device-width: 906px) 
+   and (max-device-width: 906px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+   
+       a {
+           font-size: 0.75em;
+           color: white;
+           
+       }
+   }
+   
+   
+   /* PC */
+   @media only screen 
+   and (min-device-width: 906px) 
+   and (max-device-width: 799px)
+   and (-webkit-min-device-pixel-ratio: 2) {
+   
+       a {
+           font-size: 0.5em;
+           color: white;
+           
+       }
+   
+       .menuItems {
+           color: white;
+           list-style:none;
+           display:table-row;
+           align-items: center;
+   
+           
+           
+          
+       }
+   
+       title {
+           font-size: 20px;
+           margin-left: 7em;
+           font-family: 'Courier New', Courier, monospace;
+           justify-content: center;
+       
+       }
+   }
+   
 
 /* ----------- iPhone X ----------- */
 
@@ -129,6 +176,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     }
 }
+
+ 
+
+
 
 
 /*ul {
