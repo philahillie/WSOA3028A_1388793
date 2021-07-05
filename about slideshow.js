@@ -21,51 +21,60 @@ const images = [
 
 ]
 
+const loadImages = () => {
+    let fileToload = '';
+    if (window.location.pathname === "/WSOA3028_1388793/index.html") {
+        fileToload = "./imaages" + image[0].fileName
+    }
+}
+
+
+
 //let images = ['./images/all white.jpg','./images/blooming.jpg','./images/studio.jpg']
-images.forEach(element => {
-   console.log ('it works', element);
-});
+//images.forEach(element => {
+//   console.log ('it works', element);
+//});
 
 //for (const image in images)
 
 
 
 //function to change image 
-function loadImages(){
-    document.slide.src = images[i];
+//function loadImages(){
+//    document.slide.src = images[i];
 
-    if (i < images.length - 1 ){
-        i++;
-    } else {
-        i=0;
-    }
+//    if (i < images.length - 1 ){
+//        i++;
+//    } else {
+//        i=0;
+ //   }
 
-    setInterval("loadImages()", time);
+//    setInterval("loadImages()", time);
 
-}
+//}
 
-window.addEventListener ('DOMContentLoaded', (_images) => {
+//window.addEventListener ('DOMContentLoaded', (_images) => {
 
-    let pathPrefix = '';
+ //   let pathPrefix = '';
 
-     if (window.location.pathname === '/WSOA3028_1388793/index.html')
-     pathPrefix = './'
+ //    if (window.location.pathname === '/WSOA3028_1388793/index.html')
+ //    pathPrefix = './'
 
-     else 
-     pathPrefix = '../';
+ //    else 
+  //   pathPrefix = '../';
 
 
 
-    console.log ('DOM fully loaded and parsed');
-    loadImages();
-});
+  //  console.log ('DOM fully loaded and parsed');
+ //   loadImages();
+//});
 
-for (let step = 0; step < 3; step++) {
-     //Runs 5 times, with values of step 0 through 4.
-    console.log(loadImages);
-  }
+//for (let step = 0; step < 3; step++) {
+ //    //Runs 5 times, with values of step 0 through 4.
+//    console.log(loadImages);
+//  }
 
-window.onload = loadImages ;
+//window.onload = loadImages ;
 
 
 
