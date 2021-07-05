@@ -4,12 +4,8 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bold;
-    font-family:'Courier New', Courier, monospace
-    
-    
-    
-
+    font-weight:lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 article {
@@ -34,6 +30,7 @@ nav {
 .blogImage {
     max-width: 70%;
     max-height: 70%;
+    justify-content: center;
 
 }
 
@@ -46,6 +43,18 @@ nav {
     max-width: 40%;
     max-height: 40%;
     
+}
+
+.contact {
+    
+   
+    justify-content: center;
+}
+
+.contact-article {
+
+    
+    justify-content: center;
 }
 
 .wireframe {
@@ -88,7 +97,7 @@ nav {
 
 .flex-item{
     border:e9724a;
-    background-color:#e9724a;
+    background-color:#ef774e;
     padding: 5px;
     width: 25em;
     height: 150px;
@@ -103,7 +112,9 @@ nav {
 }
 
 .flex-item:hover {
+    font-weight: bold;
     background-color:#df3314
+    
 
 
 }
@@ -113,14 +124,14 @@ nav {
     
 }
 
-.flex-paragraph:hover {
-  background-color: #924026;
-}
+
 
 a {
     color: black;
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+
     
 }
 
